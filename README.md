@@ -29,7 +29,7 @@ This project is hosted on **GitHub Pages**:
 
 
 🔗 Links
-Blog: Hashnode
+Blog: (https://netflix-clone-ui.hashnode.dev/building-a-netflix-clone-ui-with-html-and-css-a-simple-and-elegant-approach)
 
 🧑‍💻 Author
 Harshit Poddar
