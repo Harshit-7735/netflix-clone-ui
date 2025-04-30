@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header / Hero Section */
+  .hero {
+    height: 100vh;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/0a2cf944-cf9c-4724-b161-bb89f0f5cfd0/f46d2d91-cfa7-4dff-a799-64c31a4f9bcf/IN-en-20240429-popsignuptwoweeks-perspective_alpha_website_large.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar img {
+    height: 40px;
+  }
+  
+  .navbar button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: #f40612;
+  }
+  
+
+  
+  .hero-content {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-content input {
+    padding: 12px;
+    width: 300px;
+    max-width: 80%;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .hero-content .btn-started {
+    padding: 12px 20px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hero-content .btn-started:hover {
+    background-color: #f40612;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .hero-content .btn-started {
+      width: 100%;
+    }
+  }
+  
