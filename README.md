@@ -18,14 +18,13 @@ A responsive Netflix homepage clone using **Flexbox**. This project replicates t
 - **Fully Responsive**: Optimized for mobile, tablet, and desktop views
 
 
-Clone the repository:
-   ```bash
-   git clone https://github.com/Harshit-7735/netflix-clone-ui
 
 
-   ## 📡 Deployment
+
+   ## 📡 Deployment'
+
 This project is hosted on **GitHub Pages**:
-- View live site: [Netflix Clone UI - Live Demo](https://harshit-7735.github.io/netflix-clone-ui/)
+- View live site: (https://harshit-7735.github.io/netflix-clone-ui/)
 
 
 
